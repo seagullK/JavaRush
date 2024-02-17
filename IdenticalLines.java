@@ -1,3 +1,15 @@
+/*
+В этой задаче тебе нужно:
+
+Считать 6 строк и заполнить ими массив strings.
+Удалить повторяющиеся строки из массива strings, заменив их на null (null должны быть не строками "null").
+Примеры.
+
+Массив после чтения строк:
+{"Hello", "Hello", "World", "Java", "Tasks", "World"}
+Массив после удаления повторяющихся строк:
+{null, null, null, "Java", "Tasks", null}
+*/
 package com.javarush.task.pro.task05.task0508;
 
 import java.util.Scanner;
@@ -10,7 +22,6 @@ public class Solution {
     public static String[] strings;
 
     public static void main(String[] args) {
-        //напишите тут ваш код
         Scanner console = new Scanner(System.in);
         
         strings = new String[6];
