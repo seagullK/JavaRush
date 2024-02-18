@@ -84,9 +84,9 @@ public class TicTacToeGame extends Game {
             return true;
         if (model[0][y] == model[1][y] && model[0][y] == model[2][y])
             return true;
-        if (model[0][0] == n && model[1][1] == n && model[2][2] == n )
+        if (model[0][0] == n && model[1][1] == n && model[2][2] == n)
             return true;
-        if (model[0][2] == n && model[1][1]  == n && model[2][0] == n)
+        if (model[0][2] == n && model[1][1] == n && model[2][0] == n)
             return true;
         return false;
     }
